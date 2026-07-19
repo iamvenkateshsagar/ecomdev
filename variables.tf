@@ -1,5 +1,6 @@
 variable "aws_region" {
-  type = string
+  type        = string
+  description = "The AWS region where resources will be created."
 }
 
 variable "vpc_name" {
