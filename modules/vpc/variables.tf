@@ -1,6 +1,6 @@
 variable "vpc_name" {
   type        = string
-  description = "The name of the VPC"
+  description = "The name of the VPC in us-east-1 region"
 }
 
 variable "vpc_cidr" {
